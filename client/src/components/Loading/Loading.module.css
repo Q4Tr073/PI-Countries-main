@@ -1,0 +1,21 @@
+.loadingDiv {
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    justify-content: center;    
+    flex-direction: column;    
+  }
+  .loading{
+    display: flex;
+    justify-content: center;    
+    font-size: 40px;
+    padding: 10%;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgb(100, 100, 240);
+    font-family: 'Tourney', cursive;
+    text-align: center;
+  }
+  .imgLoad {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+  }
